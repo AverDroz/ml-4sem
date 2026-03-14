@@ -9,8 +9,9 @@ scipy>=1.11
 catboost>=1.2
 xgboost>=2.0
 lightgbm>=4.0
-tensorflow>=2.13
+tensorflow>=2.13,<2.19
+protobuf>=3.20,<5.0
+streamlit>=1.28.0
 umap-learn>=0.5
 nbformat>=5.9
 ipykernel>=6.0
-streamlit
